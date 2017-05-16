@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- TeamNexus additions -->
 <manifest>
+    <!-- Remotes -->
+      <remote  name="github"
+           fetch=".."
+           review="review.lineageos.org" />
+
 
     <!-- Applications -->
     <project path="packages/apps/TheNexus" name="TeamNexus/android_packages_apps_TheNexus" remote="github" revision="ln-14.1" />
